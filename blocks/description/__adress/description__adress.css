@@ -1,0 +1,30 @@
+.description__adress {
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: rgba(230, 230, 230, 1);
+    transition: all 0.2s linear 0s;
+    font-weight: bolder;
+}
+
+
+@media all and (max-width: 769px) {
+    .description__adress {
+        font-size: 20px;
+    }
+}
+
+
+@media all and (max-width: 565px) {
+    .description__adress {
+        font-size: 15px;
+    }
+}
+
+
+@media all and (max-width: 425px) {
+    .description__adress {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,39 @@
+.description__image {
+    background-image: url(../../../images/1584026498_3-p-foni-s-shinami-2.jpg);
+    height: 500px;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.description__image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: -1;
+}
+
+@media all and (max-width: 1081px) {
+    .description__image {
+        background-image: none;
+        background-color: #E6E6E6;
+    }
+    .description__image::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0);
+        z-index: -1;
+    }
+}

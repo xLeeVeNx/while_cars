@@ -1,0 +1,50 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/inter.css);
+
+
+@import url(../blocks/page/page.css);
+/* Header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__box-info/header__box-info.css);
+@import url(../blocks/header/__box-contact/header__box-contact.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__box-contact-item/header__box-contact-item.css);
+@import url(../blocks/header/__box-info-link/header__box-info-link.css);
+@import url(../blocks/header/__slider/header__slider.css);
+@import url(../blocks/header/__slider-title/header__slider-title.css);
+@import url(../blocks/header/__slider-caption/header__slider-caption.css);
+@import url(../blocks/header/__slider-button/header__slider-button.css);
+@import url(../blocks/header/__slide/header__slide.css);
+@import url(../blocks/header/__slide-left/header__slide-left.css);
+@import url(../blocks/header/__slide-right/header__slide-right.css);
+@import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__menu-link/header__menu-link.css);
+@import url(../blocks/header/__menu/header__menu.css);
+/* Header */
+
+
+/* Description */
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__title/description__title.css);
+@import url(../blocks/description/__box/description__box.css);
+@import url(../blocks/description/__container/description__container.css);
+@import url(../blocks/description/__adress/description__adress.css);
+@import url(../blocks/description/__contacts/description__contacts.css);
+@import url(../blocks/description/__socials/description__socials.css);
+@import url(../blocks/description/__social-link/description__social-link.css);
+@import url(../blocks/description/__map/description__map.css);
+@import url(../blocks/description/__image/description__image.css);
+@import url(../blocks/description/__describe-box/description__describe-box.css);
+@import url(../blocks/description/__describe-text/description__describe-text.css);
+@import url(../blocks/description/__describe-company/description__describe-box.css);
+@import url(../blocks/description/__describe-text-container/description__describe-text-container.css);
+@import url(../blocks/description/__describe-company/description__describe-company.css);
+/* Description */
+
+/* Slider */
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/__styles/slider__styles.css);
+/* SLider */

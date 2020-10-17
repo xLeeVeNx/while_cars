@@ -1,0 +1,34 @@
+.header__box-info-link {
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  max-height: 20px;
+  transition: all 0.3s linear 0s;
+}
+
+.header__box-info-link:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+
+@media all and (max-width: 1024px) {
+    .header__box-info-link {
+      margin-right: 25px;
+    }
+    .header__box-info-link:last-child {
+      margin-right: 0px;
+    }
+  }
+  
+
+
+@media all and (max-width: 770px) {
+  .header__box-info-link {
+    margin-right: 15px;
+  }
+  .header__box-info-link:last-child {
+    margin-right: 0px;
+  }
+}
+

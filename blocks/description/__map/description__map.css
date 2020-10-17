@@ -1,0 +1,15 @@
+.description__map {
+    width: 500px;
+    height: 400px;
+}
+
+
+
+
+@media all and (max-width: 1081px) {
+    .description__map {
+        width: 100vw;
+        height: 450px;
+    }
+}
+

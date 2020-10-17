@@ -1,0 +1,25 @@
+.header__box-contact {
+    max-width: 250px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media all and (max-width: 900px) {
+    .header__box-contact {
+        font-size: 18px;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .header__box-contact {
+        display: none;
+    }
+}
