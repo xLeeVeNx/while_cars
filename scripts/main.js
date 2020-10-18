@@ -24,4 +24,22 @@ $(document).ready(function() {
     });
 });
 
+$(".images__inner a").fancybox({
+    animationEffect : 'fade'
+}).attr('data-fancybox', 'gallery');
+
+$("[data-fancybox]").fancybox({
+    thumbs : false,
+    hash : false,
+    loop : true,
+    keyboard : true,
+    toolbar : true,
+    buttons: [
+        "close"
+      ],
+    animationEffect : false,
+    arrows : true,
+    openEffect : true,
+    closeClick : true
+});
 

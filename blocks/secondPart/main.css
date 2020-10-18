@@ -470,11 +470,15 @@
   .diagnostics__subtitle {
     font-size: 20px;
     line-height: 1.2;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
   }
   .diagnostics__form-item {
+    width: 400px;
     font-size: 15px;
-    margin-bottom: 50px;
+    margin: 25px 0;
+  }
+  .diagnostics__form {
+    justify-content: center;
   }
   .diagnostics__form-btn {
     font-size: 16px;
@@ -511,6 +515,9 @@
     margin-left: 10px;
     margin-right: 10px;
   }
+  .services__subtitle span {
+    display: inline;
+  }
   .about__name {
     font-size: 20px;
     margin-bottom: 20px;
@@ -523,21 +530,23 @@
     font-size: 17px;
   }
   .comfort {
-    padding: 70px 0 50px 0;
+    padding: 55px 0 35px 0;
   }
   .comfort__title {
-    font-size: 27px;
-    margin-bottom: 25px;
+    font-size: 25px;
+    margin-bottom: 15px;
   }
   .comfort__subtitle {
-    font-size: 22px;
+    font-size: 20px;
+    margin-bottom: 30px;
   }
   .comfort__item {
     display: grid;
     justify-content: center;
+    margin-top: 0;
   }
   .comfort__item-info {
-    margin: 0;
+    margin: 0 0 10px 0;
     padding: 0;
   }
   .comfort__item-info:nth-child(1) {
@@ -545,6 +554,9 @@
   }
   .comfort__item-info:nth-child(3) {
     padding-right: 0;
+  }
+  .info__img {
+    margin-bottom: 5px;
   }
   .info__name {
     font-size: 18px;
@@ -554,22 +566,26 @@
     font-size: 16px;
   }
   .diagnostics__title {
-    font-size: 29px;
+    font-size: 25px;
     margin-bottom: 15px;
   }
   .diagnostics__subtitle {
-    font-size: 20px;
+    font-size: 17px;
     line-height: 1.2;
-    margin-bottom: 100px;
-  }
-  .diagnostics__form-item {
-    font-size: 15px;
     margin-bottom: 50px;
   }
+  .diagnostics__subtitle span {
+    display: inline;
+  }
+  .diagnostics__form-item {
+    width: 300px;
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
   .diagnostics__form-btn {
-    font-size: 16px;
-    width: 170px;
-    padding: 15px 0px;
+    font-size: 15px;
+    width: 160px;
+    padding: 13px 0px;
   }
   .up {
     font-size: 36px;

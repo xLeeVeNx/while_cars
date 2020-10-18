@@ -1,7 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/inter.css);
 
-
 @import url(../blocks/page/page.css);
 /* Header */
 @import url(../blocks/header/header.css);
@@ -16,14 +15,11 @@
 @import url(../blocks/header/__slider-caption/header__slider-caption.css);
 @import url(../blocks/header/__slider-button/header__slider-button.css);
 @import url(../blocks/header/__slide/header__slide.css);
-@import url(../blocks/header/__slide-left/header__slide-left.css);
-@import url(../blocks/header/__slide-right/header__slide-right.css);
 @import url(../blocks/header/__burger/header__burger.css);
 @import url(../blocks/header/__list/header__list.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 @import url(../blocks/header/__menu/header__menu.css);
 /* Header */
-
 
 /* Description */
 @import url(../blocks/description/description.css);
