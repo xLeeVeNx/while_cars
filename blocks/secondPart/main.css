@@ -586,6 +586,7 @@
     font-size: 15px;
     width: 160px;
     padding: 13px 0px;
+    margin-bottom: 20px;
   }
   .up {
     font-size: 36px;
@@ -601,5 +602,11 @@
     font-size: 36px;
     height: 30px;
     width: 30px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .diagnostics__inner {
+    padding: 0;
   }
 }
