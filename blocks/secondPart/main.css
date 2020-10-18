@@ -565,6 +565,9 @@
   .info__text {
     font-size: 16px;
   }
+  .diagnostics__inner {
+    padding: 0;
+  }
   .diagnostics__title {
     font-size: 25px;
     margin-bottom: 15px;
@@ -586,6 +589,7 @@
     font-size: 15px;
     width: 160px;
     padding: 13px 0px;
+    margin-bottom: 20px;
   }
   .up {
     font-size: 36px;
@@ -601,5 +605,15 @@
     font-size: 36px;
     height: 30px;
     width: 30px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .diagnostics__subtitle {
+    margin-bottom: 20px;
+  }
+  .diagnostics__title {
+    font-size: 22px;
+    margin-bottom: 5px;
   }
 }
