@@ -1,0 +1,15 @@
+.header__slide-right {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}
+
+
+
+@media all and (max-width: 580px) {
+  .header__slide-right {
+    top: 70%;
+    right: 25%;
+  }
+}
+

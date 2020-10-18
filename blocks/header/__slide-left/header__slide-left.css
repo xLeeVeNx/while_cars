@@ -1,0 +1,13 @@
+.header__slide-left {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+  
+  @media all and (max-width: 580px) {
+    .header__slide-left {
+        top: 70%;
+        left: 25%;
+    }
+}
