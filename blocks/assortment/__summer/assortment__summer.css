@@ -1,0 +1,15 @@
+.assortment__summer {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+.assortment__summer:nth-child(3) {
+    top: 50px;
+}
+
+.assortment__summer:nth-child(2) {
+    top: 90px;
+}

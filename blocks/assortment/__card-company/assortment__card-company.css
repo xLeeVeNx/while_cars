@@ -1,0 +1,6 @@
+.assortment__card-company { 
+    font-size: 30px;
+    align-self: baseline;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    color: #201e1ee7
+}

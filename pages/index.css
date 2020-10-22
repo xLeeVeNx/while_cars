@@ -44,3 +44,18 @@
 @import url(../blocks/slider/__item/slider__item.css);
 @import url(../blocks/slider/__styles/slider__styles.css);
 /* SLider */
+
+/* Assortment */
+@import url(../blocks/assortment/assortment.css);
+@import url(../blocks/assortment/__title/assortment__title.css);
+@import url(../blocks/assortment/__card-container/assortment__card-container.css);
+@import url(../blocks/assortment/__card/assortment__card.css);
+@import url(../blocks/assortment/__image/assortment__image.css);
+@import url(../blocks/assortment/__card-box/assortment__card-box.css);
+@import url(../blocks/assortment/__card-text/assortment__card-text.css);
+@import url(../blocks/assortment/__card-company/assortment__card-company.css);
+@import url(../blocks/assortment/__card-size/assortment__card-size.css);
+@import url(../blocks/assortment/__summer/assortment__summer.css);
+@import url(../blocks/assortment/__sale/assortment__sale.css);
+@import url(../blocks/assortment/__grid/assortment__grid.css);
+/* Assortment */

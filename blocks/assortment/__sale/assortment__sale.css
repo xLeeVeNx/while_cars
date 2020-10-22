@@ -1,0 +1,12 @@
+.assortment__sale {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 105px;
+    left: -75px;
+    font-size: 35px;
+    letter-spacing: 3px;
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.9);
+}
