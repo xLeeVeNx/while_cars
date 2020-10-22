@@ -1,3 +1,5 @@
+<?php require_once 'include-db/db.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -476,48 +478,40 @@
       </div>
     </div>
   </section>
-  <section class="diagnostics">
+  <form class="diagnostics" id="form">
     <div class="diagnostics__inner">
       <div class="diagnostics__title">Запишитесь на диагностику</div>
       <div class="diagnostics__subtitle">
         Заполните поля формы, чтобы мы могли связаться с
         <span>вами и записать на свободное время</span>
       </div>
-      <form class="diagnostics__form">
-        <!-- Hidden Required Fields -->
-        <input type="hidden" name="project_name" value="WhileCars_By-R&D" />
-        <input
-          type="hidden"
-          name="admin_email"
-          value="damil.berdyev04@inbox.ru"
-        />
-        <input type="hidden" name="form_subject" value="FooterForm" />
-        <!-- END Hidden Required Fields -->
+      <div class="diagnostics__form" action="#">
 
         <input
-          class="diagnostics__form-item"
+          class="diagnostics__form-item _req"
           type="text"
+          name="number"
           placeholder="Ваш телефон"
-          required
         />
         <input
-          class="diagnostics__form-item"
+          class="diagnostics__form-item _req _email"
+          id="formEmail"
+          name="email"
           type="email"
           placeholder="Ваш имейл"
-          required
         />
         <input
-          class="diagnostics__form-item"
+          class="diagnostics__form-item _req"
           type="text"
+          name="name"
           placeholder="Ваше имя"
-          required
         />
-        <button class="diagnostics__form-btn" type="submit">
+        <button class="diagnostics__form-btn" type="submit" name="send">
           Онлайн запись
         </button>
-      </form>
+      </div>
     </div>
-  </section>
+  </form>
     <script src="./scripts/jquery-3.3.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="./scripts/slick.min.js"></script>
