@@ -9,10 +9,15 @@
 }
 /* Ограничивающая оболочка */
 .slick-list {
+  -webkit-overflow: hidden;
+
   overflow: hidden;
 }
 /* Лента слайдов */
+
 .slider .slick-track {
+  -webkit-display: flex;
+  -webkit-align-items: flex-start;
   display: flex;
   align-items: flex-start;
 }
@@ -62,64 +67,80 @@
   padding: 0 60px;
   margin-top: 250px;
   z-index: 5;
+
+  -webkit-min-width: 0;
+  -webkit-position: relative;
+  -webkit-padding: 0 60px;
+  -webkit-margin-top: 250px;
+  -webkit-z-index: 5;
 }
 
 @media all and (max-width: 1307px) {
   .slider {
+    -webkit-margin-top: 300px;
     margin-top: 300px;
   }
 }
 
 @media all and (max-width: 1122px) {
   .slider {
+    -webkit-margin-top: 450px;
     margin-top: 450px;
   }
 }
 
 @media all and (max-width: 1081px) {
   .slider {
+    -webkit-margin-top: 250px;
     margin-top: 250px;
   }
 }
 
 @media all and (max-width: 1024px) {
   .slider {
+    -webkit-margin-top: 250px;
     margin-top: 250px;
   }
 }
 
 @media all and (max-width: 901px) {
   .slider {
+    -webkit-margin-top: 230px;
     margin-top: 230px;
   }
 }
 
 @media all and (max-width: 606px) {
   .slider {
+    -webkit-margin-top: 300px;
     margin-top: 300px;
   }
 }
 
 @media all and (max-width: 591px) {
   .slider {
+    -webkit-margin-top: 400px;
     margin-top: 400px;
   }
 }
 
 @media all and (max-width: 575px) {
   .slider {
+    -webkit-margin-top: 200px;
     margin-top: 200px;
   }
 }
 
 @media all and (max-width: 498px) {
   .slider {
+    -webkit-margin-top: 250px;
     margin-top: 250px;
   }
 }
 
 @media all and (max-width: 459px) {
   .slider {
+    -webkit-margin-top: 250px;
     margin-top: 250px;
   }
 }
@@ -127,17 +148,20 @@
 @media all and (max-width: 420px) {
   .slider .slick-arrow {
     top: 35%;
+    -webkit-top: 35%;
   }
 }
 
 @media all and (max-width: 408px) {
   .slider {
+    -webkit-margin-top: 350px;
     margin-top: 350px;
   }
 }
 
 @media all and (max-width: 357px) {
   .slider {
+    -webkit-margin-top: 400px;
     margin-top: 400px;
   }
 }
@@ -151,10 +175,20 @@
   font-size: 0;
   border: 0;
   cursor: pointer;
+
+  -webkit-position: absolute;
+  -webkit-top: 50%;
+  -webkit-z-index: 10;
+  -webkit-width: 30px;
+  -webkit-height: 50px;
+  -webkit-font-size: 0;
+  -webkit-border: 0;
+  -webkit-cursor: pointer;
 }
 
 @media all and (max-width: 333px) {
   .slider {
+    -webkit-margin-top: 430px;
     margin-top: 430px;
   }
 }
@@ -163,21 +197,38 @@
   background: url(../../../images/prev.svg) 0 0 / 100%;
   background-repeat: no-repeat;
   left: 0;
+
+  -webkit-background: url(../../../images/prev.svg) 0 0 / 100%;
+  -webkit-background-repeat: no-repeat;
+  -webkit-left: 0;
 }
 
 .slider .slick-arrow.slick-next {
   right: 0;
   background: url(../../../images/next.svg) 0 0 / 100%;
   background-repeat: no-repeat;
+
+  -webkit-right: 0;
+  -webkit-background: url(../../../images/next.svg) 0 0 / 100%;
+  -webkit-background-repeat: no-repeat;
 }
 
 .slider .slick-dots {
+  -webkit-display: flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  -webkit-padding: 0;
+
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0;
 }
 .slider .slick-dots li {
+  -webkit-list-style: none;
+  -webkit-margin-right: 20px;
+  -webkit-margin-top: 20px;
+
   list-style: none;
   margin-right: 20px;
   margin-top: 20px;
@@ -185,6 +236,7 @@
 /* Активная точка */
 .slider .slick-dots li.slick-active button {
   background-color: slategrey;
+  -webkit-background-color: slategrey;
 }
 /* Элемент точки */
 .slider .slick-dots button {
@@ -197,27 +249,49 @@
   border-radius: 50%;
   transition: opacity 0.155s linear 0s, transform 2s, background-color 1.5s;
   cursor: pointer;
+
+  -webkit-font-size: 0;
+  -webkit-width: 30px;
+  -webkit-height: 30px;
+  -webkit-background-image: url(../../../images/wire.svg);
+  -webkit-background-size: cover;
+  -webkit-border: 0;
+  -webkit-border-radius: 50%;
+  -webkit-transition: opacity 0.155s linear 0s, transform 2s,
+    background-color 1.5s;
+  -webkit-cursor: pointer;
 }
 
 .slider .slick-dots button:hover {
   opacity: 0.8;
   transform: rotate(720deg);
+
+  -webkit-opacity: 0.8;
+  -webkit-transform: rotate(720deg);
 }
 
 .slider img {
   width: 100%;
   height: 100%;
+
+  -webkit-width: 100%;
+  -webkit-height: 100%;
 }
 
 @media all and (max-width: 425px) {
   .slider .slick-dots button {
     width: 25px;
     height: 25px;
+
+    -webkit-width: 25px;
+    -webkit-height: 25px;
   }
 }
 
 @media all and (max-width: 750px) {
   .slider .slick-arrow {
     top: 45%;
+
+    -webkit-top: 45%;
   }
 }
