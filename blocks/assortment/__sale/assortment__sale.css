@@ -16,4 +16,8 @@
     color: rgba(255, 255, 255, 0.9);
 }
 
-@media all and (max-width: )
+@media all and (max-width: 426px) {
+    .assortment__sale {
+        font-size: 25px;
+    }
+}
