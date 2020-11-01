@@ -1,37 +1,4 @@
 .slider__item {
-  height: 500px;
-
-  -webkit-height: 500px;
+margin: auto;
 }
 
-@media all and (max-width: 680px) {
-  .slider__item {
-    height: 400px;
-
-    -webkit-height: 400px;
-  }
-}
-
-@media all and (max-width: 500px) {
-  .slider__item {
-    height: 350px;
-
-    -webkit-height: 350px;
-  }
-}
-
-@media all and (max-width: 425px) {
-  .slider__item {
-    height: 250px;
-
-    -webkit-height: 250px;
-  }
-}
-
-@media all and (max-width: 375px) {
-  .slider__item {
-    height: 220px;
-
-    -webkit-height: 220px;
-  }
-}

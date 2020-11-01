@@ -1,5 +1,5 @@
 .assortment__sale {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
     position: absolute;
     -webkit-transform-origin: bottom left;
         -ms-transform-origin: bottom left;
@@ -7,17 +7,12 @@
     -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
             transform: rotate(90deg);
-    top: -20px;
+    top: -25px;
     left: 20px;
-    font-size: 35px;
-    letter-spacing: 3px;
+    font-size: 30px;
+    letter-spacing: -1px;
+    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
     -webkit-text-stroke: 2px rgba(0, 0, 0, 0.8);
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
     color: rgba(255, 255, 255, 0.9);
-}
-
-@media all and (max-width: 426px) {
-    .assortment__sale {
-        font-size: 25px;
-    }
 }
