@@ -1,12 +1,7 @@
 <?php 
-    define('DB_HOST', 'localhost');
-    define('DB_USER', 'mysql');
-    define('DB_PASSWORD', 'mysql');
-    define('DB_NAME', 'while_cars');
+  $conn = new PDO("mysql:host=localhost;dbname=while_cars", 'mysql', 'mysql');
 
-    $mysql = @new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-
-    if( $mysql->connect_errno ) exit( 'Ошибка подключения к БД' );
-    $mysql->set_charset('utf8');
-    $mysql->close();
+  $query = "INSERT INTO clientinfo VALUES(NOW(), :phone, :email, :name)";
+  $msg = $conn->prepare($query);
+  $msg->execute(['phone' => $_POST['phone'], 'email' => $_POST['email'], 'name' => $_POST['name']]);
 ?>

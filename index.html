@@ -90,29 +90,29 @@
 
 <section class="images">
     <div class="images__inner">
-      <a href="images/big1.jpg">
-        <img class="image__scale" src="images/big1.jpg" alt="#" />
+      <a href="images/big1.jpeg">
+        <img class="image__scale" src="images/big1.jpeg" alt="#" />
       </a>
-      <a href="images/big2.jpg">
-        <img class="image__scale" src="images/big2.jpg" alt="#" />
+      <a href="images/big2.jpeg">
+        <img class="image__scale" src="images/big2.jpeg" alt="#" />
       </a>
       <a href="images/big3.jpg">
         <img class="image__scale" src="images/big3.jpg" alt="#" />
       </a>
-      <a href="images/big4.jpg">
-        <img class="image__scale" src="images/big4.jpg" alt="#" />
+      <a href="images/big4.jpeg">
+        <img class="image__scale" src="images/big4.jpeg" alt="#" />
       </a>
-      <a href="images/big5.jpg">
-        <img class="image__scale" src="images/big5.jpg" alt="#" />
+      <a href="images/big5.jpeg">
+        <img class="image__scale" src="images/big5.jpeg" alt="#" />
       </a>
-      <a href="images/big6.jpg">
-        <img class="image__scale" src="images/big6.jpg" alt="#" />
+      <a href="images/big6.jpeg">
+        <img class="image__scale" src="images/big6.jpeg" alt="#" />
       </a>
-      <a href="images/big7.jpg">
-        <img class="image__scale" src="images/big7.jpg" alt="#" />
+      <a href="images/big7.jpeg">
+        <img class="image__scale" src="images/big7.jpeg" alt="#" />
       </a>
-      <a href="images/big8.jpg">
-        <img class="image__scale" src="images/big8.jpg" alt="#" />
+      <a href="images/big8.jpeg">
+        <img class="image__scale" src="images/big8.jpeg" alt="#" />
       </a>
     </div>
   </section>
@@ -354,19 +354,19 @@
       </div>
     </div>
   </section>
-  <form class="diagnostics" id="form">
+  <section class="diagnostics">
     <div class="diagnostics__inner">
       <div class="diagnostics__title">Запишитесь на диагностику</div>
       <div class="diagnostics__subtitle">
         Заполните поля формы, чтобы мы могли связаться с
         <span>вами и записать на свободное время</span>
       </div>
-      <div class="diagnostics__form" action="#">
+      <form class="diagnostics__form" method="POST" action="include-db/db.php">
 
         <input
           class="diagnostics__form-item _req"
           type="text"
-          name="number"
+          name="phone"
           placeholder="Ваш телефон"
         />
         <input
@@ -385,9 +385,9 @@
         <button class="diagnostics__form-btn" type="submit" name="send">
           Онлайн запись
         </button>
-      </div>
+      </form>
     </div>
-  </form>
+  </section>
     <script src="./scripts/jquery-3.3.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="./scripts/slick.min.js"></script>
