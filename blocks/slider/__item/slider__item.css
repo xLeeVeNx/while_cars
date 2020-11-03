@@ -1,29 +1,4 @@
 .slider__item {
-height: 500px;
-}
-
-@media all and (max-width: 680px) {
-    .slider__item {
-        height: 400px;
-    }
-}
-
-@media all and (max-width: 500px) {
-    .slider__item {
-        height: 350px;
-    }
-}
-
-
-@media all and (max-width: 425px) {
-    .slider__item {
-        height: 250px;
-    }
-}
-
-@media all and (max-width: 375px) {
-    .slider__item {
-        height: 220px;
-    }
+margin: auto;
 }
 
