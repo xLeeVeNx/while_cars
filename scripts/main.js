@@ -42,3 +42,4 @@ $("[data-fancybox]").fancybox({
   closeClick: true,
 });
 
+var mixer = mixitup(".assortment__grid");
