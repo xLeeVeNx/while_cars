@@ -6,6 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/website-logo.png" type="image/png">
   <link rel="stylesheet" href="./pages/index.css" />
   <link rel="stylesheet" href="./blocks/secondPart/main.css">
   <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
@@ -15,7 +16,10 @@
 </head>
 
 <body class="page">
-    <header class="header">
+
+  <a href="#header" class="up-sign"></a>
+
+    <header id="header" class="header">
         <div class="header__container">
             <h1 class="header__title">Шинный Центр<br>ЖЕTI SU</h1>
             <img src="./images/logo1_2.svg" class="header__logo">
@@ -25,13 +29,13 @@
             <nav class="header__menu">
                 <ul class="header__list">
                      <li>
-                         <a href="#"class="header__menu-link">О нас</a>
+                         <a href="#about-us" class="header__menu-link">О нас</a>
                      </li>
                      <li>
-                        <a href="#"class="header__menu-link">Услуги</a>
+                        <a href="#services" class="header__menu-link">Услуги</a>
                     </li>
                     <li>
-                        <a href="#"class="header__menu-link">Контакты</a>
+                        <a href="#diagnostics"class="header__menu-link">Запись</a>
                     </li>
                     <li>
                         <a href="#"class="header__menu-link">Отзывы</a>
@@ -39,9 +43,9 @@
                 </ul>
             </nav>
             <div class="header__box-info">
-                <a href="#" class="header__box-info-link">О нас</a>
-                <a href="#" class="header__box-info-link">Услуги</a>
-                <a href="#" class="header__box-info-link">Контакты</a>
+                <a href="#about-us" class="header__box-info-link">О нас</a>
+                <a href="#services" class="header__box-info-link">Услуги</a>
+                <a href="#diagnostics" class="header__box-info-link">Запись</a>
                 <a href="#" class="header__box-info-link">Отзывы</a>
             </div>
             <div class="header__box-contact"> 
@@ -56,7 +60,7 @@
           </div>  
     </header>
 
-  <section class="description">
+  <section id="about-us" class="description">
     <h2 class="description__title">О Шинном Центре</h2>
     <div class="description__image">
       <div class="description__container">
@@ -260,7 +264,7 @@
   </section>
 
 
-  <section class="services">
+  <section id="services" class="services">
     <div class="services__title">Наши услуги</div>
     <div class="services__subtitle">
       Наш автосервис оснащен современным оборудованием для
@@ -500,7 +504,7 @@
       </div>
     </div>
   </section>
-  <section class="diagnostics">
+  <section id="diagnostics" class="diagnostics">
     <div class="diagnostics__inner">
       <div class="diagnostics__title">Запишитесь на диагностику</div>
       <div class="diagnostics__subtitle">
