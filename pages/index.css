@@ -59,4 +59,6 @@
 @import url(../blocks/assortment/__summer/assortment__summer.css);
 @import url(../blocks/assortment/__sale/assortment__sale.css);
 @import url(../blocks/assortment/__grid/assortment__grid.css);
+@import url(../blocks/assortment/__items/assortment__items.css);
+@import url(../blocks/assortment/__items-btn/assortment__items-btn.css);
 /* Assortment */
