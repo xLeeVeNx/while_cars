@@ -1,0 +1,28 @@
+.reviews__coments {
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    height: 600px;
+    grid-template-columns: repeat(auto-fit, 500px);
+    grid-template-rows: repeat(2, 150px);
+    column-gap: 50px;
+    row-gap: 150px;
+}
+
+@media all and (max-width: 505px) {
+    .reviews__coments {
+        grid-template-columns: repeat(auto-fit, 400px);
+    }
+}
+
+@media all and (max-width: 405px) {
+    .reviews__coments {
+        grid-template-columns: repeat(auto-fit, 350px);
+    }
+}
+
+@media all and (max-width: 355px) {
+    .reviews__coments {
+        grid-template-columns: repeat(auto-fit, 300px);
+    }
+}
