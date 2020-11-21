@@ -1,3 +1,17 @@
+@keyframes move {
+  0% {
+      bottom: 10%;
+}
+  50% {
+      bottom: 8%;
+}
+  100% {
+    bottom: 10%;
+}
+}
+
+
+
 .up-sign {
   width: 70px;
   height: 70px;
@@ -9,6 +23,7 @@
   background-size: cover;
   background-color: rgb(255, 255, 255);
   border-radius: 50%;
+  animation: move 1s linear infinite;
 }
 
 @media all and (max-width: 769px) {
@@ -16,3 +31,5 @@
     display: none;
   }
 }
+
+

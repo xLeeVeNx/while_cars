@@ -61,8 +61,18 @@
 @import url(../blocks/assortment/__grid/assortment__grid.css);
 @import url(../blocks/assortment/__items/assortment__items.css);
 @import url(../blocks/assortment/__items-btn/assortment__items-btn.css);
+@import url(../blocks/assortment/__ships/assortment__ships.css);
 /* Assortment */
 
 /* Up */
 @import url(../blocks/up-sign/up-sign.css);
 /* Up */
+
+/* Reviews */
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+@import url(../blocks/reviews/__coments/reviews__coments.css);
+@import url(../blocks/reviews/__coment-box/reviews__coment-box.css);
+@import url(../blocks/reviews/__coment-text/reviews__coment-text.css);
+@import url(../blocks/reviews/__author/reviews__author.css);
+/* Reviews */
