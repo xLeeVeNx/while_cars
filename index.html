@@ -111,310 +111,425 @@
   <section class="assortment">
     <h2 class="assortment__title">Ассортимент</h2>
 
-    <div class="assortment__items">
-      <button class="assortment__items-btn" data-filter="all" type="button">Все ахуенные</button>
-      <button class="assortment__items-btn" data-filter=".category-a" type="button">Не все ахуенные</button>
-      <button class="assortment__items-btn" data-filter=".category-b" type="button">Мало ахуенных</button>
-      <button class="assortment__items-btn" data-filter=".category-c" type="button">Не ахуенные</button>
-    </div>
+    <section class="cd-main-content">
+    <div class="cd-tab-filter-wrapper">
+      <div class="cd-tab-filter">
+        <ul class="cd-filters">
+          <li class="placeholder">
+            <a data-type="all" href="#0">Все</a> <!-- selected option on mobile -->
+          </li>
+          <li class="filter"><a class="selected" href="#0" data-type="all">Все</a></li>
+          <li class="filter" data-filter=".importsoft"><a href="#0" data-type="importsoft">Импортные легковые</a></li>
+          <li class="filter" data-filter=".soft"><a href="#0" data-type="soft">Легковые</a></li>
+          <li class="filter" data-filter=".hard"><a href="#0" data-type="hard">Грузовые</a></li>
+          <li class="filter" data-filter=".hay"><a href="#0" data-type="hay">Сельхоз</a></li>
+        </ul> <!-- cd-filters -->
+      </div> <!-- cd-tab-filter -->
+    </div> <!-- cd-tab-filter-wrapper -->
 
-    <div class="assortment__grid">
+    <section class="cd-gallery">
+      <ul class="assortment__grid">
+        <li class="assortment__card mix importsoft dunlop winter"><img src="images/tires/easy_import/DUNLOP_SP_WINTER_ICE.png"
+            class="assortment__image">
+          <img src="images/зима2.png" class="assortment__summer">
+          <img src="images/шипы.jpg" class="assortment__ships">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 175/70 R13</p>
+            <p class="assortment__card-company">DUNLOP SP WINTER ICE 02 82T</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft polish sava winter"><img src="images/tires/easy_import/SAVA Eskimo.png"
+            class="assortment__image">
+          <img src="images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 185/65 R14</p>
+            <p class="assortment__card-company">SAVA Eskimo S3+</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft russia nokian winter"><img src="images/tires/easy_import/NORDMAN SX2.png"
+            class="assortment__image">
+          <img src="images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 185/65 R14</p>
+            <p class="assortment__card-company">NORDMAN SX2</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft bfgoodrich winter"><img src="images/tires/easy_import/G-FORCE WINTER2.png"
+            class="assortment__image">
+          <img src="images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 185/65 R15</p>
+            <p class="assortment__card-company">G-FORCE WINTER2</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft russia nokian winter"><img src="images/tires/easy_import/NORDMAN_RS2.png"
+            class="assortment__image">
+          <img src="images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 185/70 R14</p>
+            <p class="assortment__card-company">NORDMAN RS2</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft goodyear polish winter"><img src="images/tires/easy_import/UltraGrip Ice 2.jpg"
+            class="assortment__image">
+          <img src="images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 195/65 R15</p>
+            <p class="assortment__card-company">UltraGrip Ice 2</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft winter"><img src="images/tires/easy_import/WINTER MAXX WM02.png"
+            class="assortment__image">
+          <img src="images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 195/65 R15</p>
+            <p class="assortment__card-company">WINTER MAXX WM02</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft check1 winter"><img src="images/tires/easy_import/WINTER MAXX WM01.png"
+            class="assortment__image">
+          <img src="images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 195/65 R15</p>
+            <p class="assortment__card-company">WINTER MAXX WM01</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft kormoran serbia winter">
+          <img src="./images/tires/easy_import/Snow 96H Kormoran.jpeg" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 205/60 R15</p>
+            <p class="assortment__card-company">Snow 96H Kormoran</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft maxxis winter">
+          <img src="./images/tires/easy_import/SS-01 96Q Maxxis.jpeg" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 205/70R15</p>
+            <p class="assortment__card-company">SS-01 96Q Maxxis</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft goodyear polish winter">
+          <img src="./images/tires/easy_import/UltraGrip-600-H-Stud-98T-Goodyear.png" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <img src="./images/шипы-removebg.png" class="assortment__ships">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 215/55R17</p>
+            <p class="assortment__card-company">UltraGrip 600 H-Stud 98T Goodyear</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft kormoran serbia winter">
+          <img src="./images/tires/easy_import/Snow 99H Kormoran1.png" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 215/60R16</p>
+            <p class="assortment__card-company">Snow 99H Kormoran</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft gislaved germany slovakia winter">
+          <img src="./images/tires/easy_import/Soft Frost 200 99T Gislaved.png" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 215/60R16</p>
+            <p class="assortment__card-company">Soft Frost 200 99T Gislaved</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft maxxis winter">
+          <img src="./images/tires/easy_import/SP-02 99T Maxxis.png" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 215/60R16</p>
+            <p class="assortment__card-company">SP-02 99T Maxxis</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft goodyear germany china winter">
+          <img src="./images/tires/easy_import/UltraGrip Ice+ 99T Goodyear.png" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 215/60R16</p>
+            <p class="assortment__card-company">UltraGrip Ice+ 99T Goodyear</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft michelin spain winter">
+          <img src="./images/tires/easy_import/X-Ice 3 102T Michelin.png" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 215/65R16</p>
+            <p class="assortment__card-company">X-Ice 3 102T Michelin</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft kormoran serbia winter">
+          <img src="./images/tires/easy_import/Snow SUV 100H Kormoran1.png" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 215/70R16</p>
+            <p class="assortment__card-company">Snow SUV 100H Kormoran</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft gislaved germany winter">
+          <img src="./images/tires/easy_import/WINTER MAXX WM01.png" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 225/75R16</p>
+            <p class="assortment__card-company">Soft Frost 200 SUV 108T Gislaved</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft nokian russia winter">
+          <img src="./images/tires/easy_import/Hakkapeliitta R3 98T Nokian.png" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 235/45R18</p>
+            <p class="assortment__card-company">Hakkapeliitta R3 98T Nokian</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft maxxis winter">
+          <img src="./images/tires/easy_import/NS5 104T Maxxis.png" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 235/55R18</p>
+            <p class="assortment__card-company">NS5 104T Maxxis</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft maxxis winter">
+          <img src="./images/tires/easy_import/SS-01 112Q Maxxis.png" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 235/55R18</p>
+            <p class="assortment__card-company">SS-01 100Q Maxxis</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft dunlop winter">
+          <img src="./images/tires/easy_import/Winter Maxx SJ8 107R Dunlop1.png" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 245/70R16</p>
+            <p class="assortment__card-company">Winter Maxx SJ8 107R Dunlop</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft maxxis winter">
+          <img src="./images/tires/easy_import/SS-01 112Q Maxxis.png" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 265/65R17</p>
+            <p class="assortment__card-company">SS-01 112Q Maxxis</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft maxxis winter">
+          <img src="./images/tires/easy_import/SS-01 112Q Maxxis.png" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 265/65R17</p>
+            <p class="assortment__card-company">SS-01 112Q Maxxis</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft dunlop winter">
+          <img src="./images/tires/easy_import/Winter Maxx SJ8 107R Dunlop1.png" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 265/70R16</p>
+            <p class="assortment__card-company">Winter Maxx SJ8 112R Dunlop</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft dunlop winter">
+          <img src="./images/tires/easy_import/Winter Maxx SJ8 107R Dunlop1.png" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 275/70R16</p>
+            <p class="assortment__card-company">Winter Maxx SJ8 114R Dunlop</p>
+          </div>
+        </li>
+        <li class="assortment__card mix importsoft maxxis winter">
+          <img src="./images/tires/easy_import/SS-01 112Q Maxxis.png" class="assortment__image">
+          <img src="./images/зима2.png" class="assortment__summer">
+          <div class="assortment__card-box">
+            <p class="assortment__card-text">Цена: 15000 тг</p>
+            <p class="assortment__card-size">Размер: 285/50R20</p>
+            <p class="assortment__card-company">SS-01 116Q Maxxis</p>
+          </div>
+        </li>
+        <li class="gap"></li>
+        <li class="gap"></li>
+        <li class="gap"></li>
+      </ul>
+      <div class="cd-fail-message">Извините, ничего не найдено</div>
+    </section> <!-- cd-gallery -->
 
-      <div class="assortment__card mix category-a">
-        <img src="./images/tires/easy_import/DUNLOP_SP_WINTER_ICE.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <img src="./images/шипы-removebg.png" class="assortment__ships">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 175/70 R13</p>
-          <p class="assortment__card-company">DUNLOP SP WINTER ICE 02 82T</p>
-        </div>
-      </div>
+    <div class="cd-filter">
+      <form>
 
+        <div class="cd-filter-block">
+          <h4>Страна производства</h4>
 
-      <div class="assortment__card mix category-a">
-        <img src="./images/tires/easy_import/SAVA Eskimo.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 185/65 R14</p>
-          <p class="assortment__card-company">SAVA Eskimo S3+</p>
-        </div>
-      </div>
+          <ul class="cd-filter-content cd-filters list">
+            <li>
+              <input class="filter" data-filter=".russia" type="checkbox" id="russia">
+              <label class="checkbox-label" for="russia">Россия</label>
+            </li>
 
+            <li>
+              <input class="filter" data-filter=".polish" type="checkbox" id="polish">
+              <label class="checkbox-label" for="polish">Польша</label>
+            </li>
 
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/NORDMAN SX2.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 185/65 R14</p>
-          <p class="assortment__card-company">NORDMAN SX2</p>
-        </div>
-      </div>
+            <li>
+              <input class="filter" data-filter=".slovakia" type="checkbox" id="slovakia">
+              <label class="checkbox-label" for="slovakia">Словакия</label>
+            </li>
 
+            <li>
+              <input class="filter" data-filter=".germany" type="checkbox" id="germany">
+              <label class="checkbox-label" for="germany">Германия</label>
+            </li>
 
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/G-FORCE WINTER2.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 185/65 R15</p>
-          <p class="assortment__card-company">G-FORCE WINTER2</p>
-        </div>
-      </div>
+            <li>
+              <input class="filter" data-filter=".china" type="checkbox" id="china">
+              <label class="checkbox-label" for="china">Китай</label>
+            </li>
 
+            <li>
+              <input class="filter" data-filter=".serbia" type="checkbox" id="serbia">
+              <label class="checkbox-label" for="serbia">Сербия</label>
+            </li>
 
-      <div class="assortment__card mix category-c">
-        <img src="./images/tires/easy_import/NORDMAN_RS2.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 185/70 R14</p>
-          <p class="assortment__card-company">NORDMAN RS2</p>
-        </div>
-      </div>
+            <li>
+              <input class="filter" data-filter=".spain" type="checkbox" id="spain">
+              <label class="checkbox-label" for="spain">Испания</label>
+            </li>
+          </ul> <!-- cd-filter-content -->
+        </div> <!-- cd-filter-block -->
 
-      <div class="assortment__card mix category-c">
-        <img src="./images/tires/easy_import/UltraGrip Ice 2.jpg" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 195/65 R15</p>
-          <p class="assortment__card-company">UltraGrip Ice 2</p>
-        </div>
-      </div>
+        <div class="cd-filter-block">
+          <h4>Производитель</h4>
 
-      <div class="assortment__card mix category-a">
-        <img src="./images/tires/easy_import/WINTER MAXX WM02.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 195/65 R15</p>
-          <p class="assortment__card-company">WINTER MAXX WM02</p>
-        </div>
-      </div>
+          <ul class="cd-filter-content cd-filters list">
+            <li>
+              <input class="filter" data-filter=".dunlop" type="checkbox" id="dunlop">
+              <label class="checkbox-label" for="dunlop">Dunlop</label>
+            </li>
 
+            <li>
+              <input class="filter" data-filter=".sava" type="checkbox" id="sava">
+              <label class="checkbox-label" for="sava">Sava</label>
+            </li>
 
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/WINTER MAXX WM01.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 195/65 R15</p>
-          <p class="assortment__card-company">WINTER MAXX WM01</p>
-        </div>
-      </div>
+            <li>
+              <input class="filter" data-filter=".nokian" type="checkbox" id="nokian">
+              <label class="checkbox-label" for="nokian">Nokian</label>
+            </li>
 
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/Snow 96H Kormoran.jpeg" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 205/60 R15</p>
-          <p class="assortment__card-company">Snow 96H Kormoran</p>
-        </div>
-      </div>
+            <li>
+              <input class="filter" data-filter=".bfgoodrich" type="checkbox" id="bfgoodrich">
+              <label class="checkbox-label" for="bfgoodrich">BFGoodrich</label>
+            </li>
 
+            <li>
+              <input class="filter" data-filter=".maxxis" type="checkbox" id="maxxis">
+              <label class="checkbox-label" for="maxxis">Maxxis</label>
+            </li>
 
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/SS-01 96Q Maxxis.jpeg" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 205/70R15</p>
-          <p class="assortment__card-company">SS-01 96Q Maxxis</p>
-        </div>
-      </div>
+            <li>
+              <input class="filter" data-filter=".goodyear" type="checkbox" id="goodyear">
+              <label class="checkbox-label" for="goodyear">Goodyear</label>
+            </li>
 
+            <li>
+              <input class="filter" data-filter=".kormoran" type="checkbox" id="kormoran">
+              <label class="checkbox-label" for="kormoran">Kormoran</label>
+            </li>
 
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/UltraGrip-600-H-Stud-98T-Goodyear.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <img src="./images/шипы-removebg.png" class="assortment__ships">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 215/55R17</p>
-          <p class="assortment__card-company">UltraGrip 600 H-Stud 98T Goodyear</p>
-        </div>
-      </div>
+            <li>
+              <input class="filter" data-filter=".gislaved" type="checkbox" id="gislaved">
+              <label class="checkbox-label" for="gislaved">Gislaved</label>
+            </li>
 
+            <li>
+              <input class="filter" data-filter=".michelin" type="checkbox" id="michelin">
+              <label class="checkbox-label" for="michelin">Michelin</label>
+            </li>
 
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/Snow 99H Kormoran1.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 215/60R16</p>
-          <p class="assortment__card-company">Snow 99H Kormoran</p>
-        </div>
-      </div>
+            <li>
+              <input class="filter" data-filter=".cordiant" type="checkbox" id="cordiant">
+              <label class="checkbox-label" for="cordiant">Cordiant</label>
+            </li>
 
+            <li>
+              <input class="filter" data-filter=".tunga" type="checkbox" id="tunga">
+              <label class="checkbox-label" for="tunga">Tunga</label>
+            </li>
 
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/Soft Frost 200 99T Gislaved.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 215/60R16</p>
-          <p class="assortment__card-company">Soft Frost 200 99T Gislaved</p>
-        </div>
-      </div>
+            <li>
+              <input class="filter" data-filter=".tyrexcrg" type="checkbox" id="tyrexcrg">
+              <label class="checkbox-label" for="tyrexcrg">TyRex CRG</label>
+            </li>
 
+            <li>
+              <input class="filter" data-filter=".sailun" type="checkbox" id="sailun">
+              <label class="checkbox-label" for="sailun">Sailun</label>
+            </li>
 
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/SP-02 99T Maxxis.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 215/60R16</p>
-          <p class="assortment__card-company">SP-02 99T Maxxis</p>
-        </div>
-      </div>
+            <li>
+              <input class="filter" data-filter=".matador" type="checkbox" id="matador">
+              <label class="checkbox-label" for="matador">Matador</label>
+            </li>
 
+            <li>
+              <input class="filter" data-filter=".belshz" type="checkbox" id="belshz">
+              <label class="checkbox-label" for="belshz">БелШЗ</label>
+            </li>
+          </ul> <!-- cd-filter-content -->
+        </div> <!-- cd-filter-block -->
 
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/UltraGrip Ice+ 99T Goodyear.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 215/60R16</p>
-          <p class="assortment__card-company">UltraGrip Ice+ 99T Goodyear</p>
-        </div>
-      </div>
+        <div class="cd-filter-block">
+          <h4>Сезонность</h4>
 
+          <ul class="cd-filter-content cd-filters list">
+            <li>
+              <input class="filter" data-filter="" type="radio" name="radioButton" id="radio1" checked>
+              <label class="radio-label" for="radio1">Все</label>
+            </li>
 
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/X-Ice 3 102T Michelin.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 215/65R16</p>
-          <p class="assortment__card-company">X-Ice 3 102T Michelin</p>
-        </div>
-      </div>
+            <li>
+              <input class="filter" data-filter=".winter" type="radio" name="radioButton" id="winter">
+              <label class="radio-label" for="winter">Зима</label>
+            </li>
+          </ul> <!-- cd-filter-content -->
+        </div> <!-- cd-filter-block -->
 
+      </form>
 
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/Snow SUV 100H Kormoran1.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 215/70R16</p>
-          <p class="assortment__card-company">Snow SUV 100H Kormoran</p>
-        </div>
-      </div>
+      <a href="#0" class="cd-close">Закрыть</a>
+    </div> <!-- cd-filter -->
 
+    <a href="#0" class="cd-filter-trigger">Фильтр</a>
+  </section> <!-- cd-main-content -->
 
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/WINTER MAXX WM01.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 225/75R16</p>
-          <p class="assortment__card-company">Soft Frost 200 SUV 108T Gislaved</p>
-        </div>
-      </div>
-
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/Hakkapeliitta R3 98T Nokian.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 235/45R18</p>
-          <p class="assortment__card-company">Hakkapeliitta R3 98T Nokian</p>
-        </div>
-      </div>
-  
-  
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/NS5 104T Maxxis.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 235/55R18</p>
-          <p class="assortment__card-company">NS5 104T Maxxis</p>
-        </div>
-      </div>
-  
-  
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/SS-01 112Q Maxxis.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 235/55R18</p>
-          <p class="assortment__card-company">SS-01 100Q Maxxis</p>
-        </div>
-      </div>
-  
-  
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/Winter Maxx SJ8 107R Dunlop1.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 245/70R16</p>
-          <p class="assortment__card-company">Winter Maxx SJ8 107R Dunlop</p>
-        </div>
-      </div>
-  
-  
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/SS-01 112Q Maxxis.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 265/65R17</p>
-          <p class="assortment__card-company">SS-01 112Q Maxxis</p>
-        </div>
-      </div>
-
-      
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/SS-01 112Q Maxxis.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 265/65R17</p>
-          <p class="assortment__card-company">SS-01 112Q Maxxis</p>
-        </div>
-      </div>
-
-      
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/Winter Maxx SJ8 107R Dunlop1.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 265/70R16</p>
-          <p class="assortment__card-company">Winter Maxx SJ8 112R Dunlop</p>
-        </div>
-      </div>
-
-      
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/Winter Maxx SJ8 107R Dunlop1.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 275/70R16</p>
-          <p class="assortment__card-company">Winter Maxx SJ8 114R Dunlop</p>
-        </div>
-      </div>
-
-      
-      <div class="assortment__card mix category-b">
-        <img src="./images/tires/easy_import/SS-01 112Q Maxxis.png" class="assortment__image">
-        <img src="./images/зима2.png" class="assortment__summer">
-        <div class="assortment__card-box">
-          <p class="assortment__card-text">Цена: 15000 тг</p>
-          <p class="assortment__card-size">Размер: 285/50R20</p>
-          <p class="assortment__card-company">SS-01 116Q Maxxis</p>
-        </div>
-      </div>
-
-    </div>
   </section>
 
   <section class="images">
@@ -748,6 +863,8 @@
 
 
   <script src="./scripts/jquery-3.3.1.min.js"></script>
+  <script src="./scripts/jquery-2.1.1.js"></script>
+  <script src="./scripts/jquery.mixitup.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
   <script src="./scripts/slick.min.js"></script>
   <script src="./scripts/mixitup.min.js"></script>
