@@ -42,4 +42,8 @@ $("[data-fancybox]").fancybox({
   closeClick: true,
 });
 
-var mixer = mixitup(".assortment__grid");
+var mixer = mixitup(".assortment__grid", {
+  animation: {
+    effects: "fade translateZ(-360px) stagger(34ms)",
+  },
+});
