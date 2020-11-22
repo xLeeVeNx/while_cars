@@ -64,9 +64,9 @@ jQuery(document).ready(function ($) {
 
     //check if user has clicked the placeholder item
     if ($(event.target).is(filter_tab_placeholder)) {
-      filter_tab_placeholder_default_value == filter_tab_placeholder.text()
-        ? filter_tab_placeholder.text(filter_tab_placeholder_text)
-        : filter_tab_placeholder.text(filter_tab_placeholder_default_value);
+      filter_tab_placeholder_default_value == filter_tab_placeholder.text() ?
+        filter_tab_placeholder.text(filter_tab_placeholder_text) :
+        filter_tab_placeholder.text(filter_tab_placeholder_default_value);
       $(".cd-tab-filter").toggleClass("is-open");
 
       //check if user has clicked a filter already selected
@@ -81,34 +81,10 @@ jQuery(document).ready(function ($) {
         .data("type", selected_filter);
       filter_tab_placeholder_text = $(event.target).text();
 
-      //add class selected to the selected filter item
       $(".cd-tab-filter .selected").removeClass("selected");
       $(event.target).addClass("selected");
     }
   });
-
-  //fix lateral filter and gallery on scrolling
-  $(window).on("scroll", function () {
-    !window.requestAnimationFrame
-      ? fixGallery()
-      : window.requestAnimationFrame(fixGallery);
-  });
-
-  function fixGallery() {
-    var offsetTop = $(".cd-main-content").offset().top,
-      scrollTop = $(window).scrollTop();
-    scrollTop >= offsetTop
-      ? $(".cd-main-content").addClass("is-fixed")
-      : $(".cd-main-content").removeClass("is-fixed");
-  }
-
-  /************************************
-  	MitItUp filter settings
-  	More details: 
-  	https://mixitup.kunkalabs.com/
-  	or:
-  	http://codepen.io/patrickkunka/
-  *************************************/
 
   buttonFilter.init();
   $(".cd-gallery ul").mixItUp({
@@ -135,7 +111,7 @@ jQuery(document).ready(function ($) {
       timer = setTimeout(callback, ms);
     };
   })();
-  
+
 });
 
 
@@ -146,7 +122,7 @@ var buttonFilter = {
   outputString: "",
 
   init: function () {
-    var self = this; 
+    var self = this;
 
     self.$filters = $(".cd-main-content");
     self.$container = $(".cd-gallery ul");
@@ -178,7 +154,8 @@ var buttonFilter = {
   parseFilters: function () {
     var self = this;
 
-    for (var i = 0, group; (group = self.groups[i]); i++) {
+    for (var i = 0, group;
+      (group = self.groups[i]); i++) {
       group.active = [];
       group.$inputs.each(function () {
         var $this = $(this);
@@ -195,9 +172,10 @@ var buttonFilter = {
   concatenate: function () {
     var self = this;
 
-    self.outputString = ""; 
+    self.outputString = "";
 
-    for (var i = 0, group; (group = self.groups[i]); i++) {
+    for (var i = 0, group;
+      (group = self.groups[i]); i++) {
       self.outputString += group.active;
     }
 
