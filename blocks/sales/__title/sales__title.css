@@ -1,15 +1,16 @@
-.assortment__title {
+.sales__title {
     text-align: center;
     font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
     font-size: 45px;
     font-weight: bold;
-    grid-column: 1/5;
-    margin-bottom: 100px;
+    padding-bottom: 60px;
+    padding-top: 100px;
+    margin: 0;
 }
 
 
 @media all and (max-width: 600px) {
-    .assortment__title {
+    .sales__title {
         font-size: 30px;
     }
 }
