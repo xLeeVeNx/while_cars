@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/website-logo.png" type="image/png">
+  <link rel="stylesheet" href="css/main.min.css">
+  <title>Автошины</title>
+</head>
+
+<body class="page">
+
+  <a href="#header" class="up-sign"></a>
+
+  <header id="header" class="header">
+    <div class="header__container">
+      <h1 class="header__title">Шинный Центр<br>ЖЕTI SU</h1>
+      <img src="./images/logo1_2.svg" class="header__logo">
+      <div class="header__burger">
+        <span></span>
+      </div>
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li>
+            <a href="#about-us" class="header__menu-link">О нас</a>
+          </li>
+          <li>
+            <a href="#services" class="header__menu-link">Услуги</a>
+          </li>
+          <li>
+            <a href="#diagnostics" class="header__menu-link">Запись</a>
+          </li>
+          <li>
+            <a href="#reviews" class="header__menu-link">Отзывы</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__box-info">
+        <a href="#about-us" class="header__box-info-link">О нас</a>
+        <a href="#services" class="header__box-info-link">Услуги</a>
+        <a href="#diagnostics" class="header__box-info-link">Запись</a>
+        <a href="#reviews" class="header__box-info-link">Отзывы</a>
+      </div>
+      <div class="header__box-contact">
+        <p class="header__box-contact-item">Пн-Вс: 10:00 – 21:00</p>
+        <p class="header__box-contact-item">+7 777 688 94 77</p>
+      </div>
+      <div class="header__slider">
+        <h2 class="header__slider-title">Шинный Центр ЖЕTI SU,<br>ДОБРО ПОЖАЛОВАТЬ!</h2>
+        <p class="header__slider-caption">Ремонт и техническое обслуживание автомобилей</p>
+        <a href="#diagnostics"><button class="header__slider-button">Онлайн запись</button></a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about-us" class="description">
+    <h2 class="description__title">О Шинном Центре</h2>
+    <div class="description__image">
+      <div class="description__container">
+        <div style="position:relative;"><a
+            href="https://yandex.kz/maps/10303/taldikorgan/?utm_medium=mapframe&utm_source=maps"
+            style="color:#eee;font-size:12px;position:absolute;top:0px;">Талдыкорган</a><a
+            href="https://yandex.kz/maps/10303/taldikorgan/house/Y0EYdQ5gSEYBQFpvfXxxcn5jZA==/?ll=78.390276%2C45.003207&source=wizgeo&utm_medium=mapframe&utm_source=maps&z=18.22"
+            style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Абылай Хана, 237/1 —
+            Яндекс.Карты</a><iframe class="description__map" src="https://yandex.kz/map-widget/v1/-/CCQ~4BuG8A"
+            frameborder="0" allowfullscreen="true" style="position:relative;"></iframe></div>
+        <div class="description__box">
+          <p class="description__adress">Абылай Хан көшесі, 237/1</p>
+          <p class="description__adress">улица Абылай Хан, 237/1</p>
+          <p class="description__contacts">Пн-Вс: 10.00 – 21.00<br>+7 777 688 94 77<br>hello@company.com</p>
+          <ul class="description__socials">
+            <li><a href="https://instagram.com/schinniy_centr_7su?igshid=m3pf47ioqxz6" target="_blank"
+                class="description__social-link"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="description__describe-box">
+      <p class="description__describe-text">Вы всегда получаете гарантированно качественную работу от наших
+        профессионалов, и всегда можете быть уверенными в надежной работе своего автомобиля. Вы получите полную гарантию
+        на все виды работ.
+        В комплексных работах участвуют несколько специалистов, каждый из которых отвечает за свою часть работы.</p>
+      <p class="description__describe-text">Специалисты узкого профиля повышают работоспособность сервиса и качество
+        выполнения работ. Обслуживание автомобиля организовано согласно требованиям заводов-изготовителей. Оборудование
+        техцентра соответствует всем современным требованиям.</p>
+      <div class="description__describe-text-container">
+        <p class="description__describe-text">Мы ремонтируем марки всех автомобилей</p>
+
+      </div>
+  </section>
+
+  <section class="slider">
+    <div class="slider__item">
+      <img class="slider__image" src="./images/01.jpg">
+    </div>
+    <div class="slider__item">
+      <img class="slider__image" src="./images/02.jpg">
+    </div>
+    <div class="slider__item">
+      <img class="slider__image" src="./images/03.jpg">
+    </div>
+  </section>
+
+  <section class="assortment">
+    <h2 class="assortment__title">Ассортимент</h2>
+    <div class="assortment__buttons">
+      <button class="assortment__button" data-filter="all" type="button">Все</button>
+      <button class="assortment__button" data-filter=".importsoft" type="button">Импортные легковые</button>
+      <button class="assortment__button" data-filter=".soft" type="button">Легковые</button>
+      <button class="assortment__button" data-filter=".hard" type="button">Грузовые</button>
+      <button class="assortment__button" data-filter=".hay"  type="button">Сельхоз</button>
+    </div>
+    <div class="assortment__grid">
+      <div class="assortment__card mix importsoft"><img src="images/tires/easy_import/DUNLOP_SP_WINTER_ICE.png"
+          class="assortment__image">
+        <img src="images/зима2.png" class="assortment__summer">
+        <img src="images/шипы.jpg" class="assortment__ships">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 175/70 R13</p>
+          <p class="assortment__card-company">DUNLOP SP WINTER ICE 02 82T</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft"><img src="images/tires/easy_import/SAVA Eskimo.png"
+          class="assortment__image">
+        <img src="images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 185/65 R14</p>
+          <p class="assortment__card-company">SAVA Eskimo S3+</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft"><img src="images/tires/easy_import/NORDMAN SX2.png"
+          class="assortment__image">
+        <img src="images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 185/65 R14</p>
+          <p class="assortment__card-company">NORDMAN SX2</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft"><img src="images/tires/easy_import/G-FORCE WINTER2.png"
+          class="assortment__image">
+        <img src="images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 185/65 R15</p>
+          <p class="assortment__card-company">G-FORCE WINTER2</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft"><img src="images/tires/easy_import/NORDMAN_RS2.png"
+          class="assortment__image">
+        <img src="images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 185/70 R14</p>
+          <p class="assortment__card-company">NORDMAN RS2</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft"><img src="images/tires/easy_import/UltraGrip Ice 2.jpg"
+          class="assortment__image">
+        <img src="images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 195/65 R15</p>
+          <p class="assortment__card-company">UltraGrip Ice 2</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft"><img src="images/tires/easy_import/WINTER MAXX WM02.png"
+          class="assortment__image">
+        <img src="images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 195/65 R15</p>
+          <p class="assortment__card-company">WINTER MAXX WM02</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft"><img src="images/tires/easy_import/WINTER MAXX WM01.png"
+          class="assortment__image">
+        <img src="images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 195/65 R15</p>
+          <p class="assortment__card-company">WINTER MAXX WM01</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/Snow 96H Kormoran.jpeg" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 205/60 R15</p>
+          <p class="assortment__card-company">Snow 96H Kormoran</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/SS-01 96Q Maxxis.jpeg" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 205/70R15</p>
+          <p class="assortment__card-company">SS-01 96Q Maxxis</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/UltraGrip-600-H-Stud-98T-Goodyear.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <img src="./images/шипы-removebg.png" class="assortment__ships">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 215/55R17</p>
+          <p class="assortment__card-company">UltraGrip 600 H-Stud 98T Goodyear</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/Snow 99H Kormoran1.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 215/60R16</p>
+          <p class="assortment__card-company">Snow 99H Kormoran</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/Soft Frost 200 99T Gislaved.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 215/60R16</p>
+          <p class="assortment__card-company">Soft Frost 200 99T Gislaved</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/SP-02 99T Maxxis.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 215/60R16</p>
+          <p class="assortment__card-company">SP-02 99T Maxxis</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/UltraGrip Ice+ 99T Goodyear.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 215/60R16</p>
+          <p class="assortment__card-company">UltraGrip Ice+ 99T Goodyear</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/X-Ice 3 102T Michelin.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 215/65R16</p>
+          <p class="assortment__card-company">X-Ice 3 102T Michelin</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/Snow SUV 100H Kormoran1.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 215/70R16</p>
+          <p class="assortment__card-company">Snow SUV 100H Kormoran</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/WINTER MAXX WM01.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 225/75R16</p>
+          <p class="assortment__card-company">Soft Frost 200 SUV 108T Gislaved</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/Hakkapeliitta R3 98T Nokian.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 235/45R18</p>
+          <p class="assortment__card-company">Hakkapeliitta R3 98T Nokian</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/NS5 104T Maxxis.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 235/55R18</p>
+          <p class="assortment__card-company">NS5 104T Maxxis</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/SS-01 112Q Maxxis.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 235/55R18</p>
+          <p class="assortment__card-company">SS-01 100Q Maxxis</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/Winter Maxx SJ8 107R Dunlop1.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 245/70R16</p>
+          <p class="assortment__card-company">Winter Maxx SJ8 107R Dunlop</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/SS-01 112Q Maxxis.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 265/65R17</p>
+          <p class="assortment__card-company">SS-01 112Q Maxxis</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/SS-01 112Q Maxxis.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 265/65R17</p>
+          <p class="assortment__card-company">SS-01 112Q Maxxis</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/Winter Maxx SJ8 107R Dunlop1.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 265/70R16</p>
+          <p class="assortment__card-company">Winter Maxx SJ8 112R Dunlop</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/Winter Maxx SJ8 107R Dunlop1.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 275/70R16</p>
+          <p class="assortment__card-company">Winter Maxx SJ8 114R Dunlop</p>
+        </div>
+      </div>
+      <div class="assortment__card mix importsoft">
+        <img src="./images/tires/easy_import/SS-01 112Q Maxxis.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 285/50R20</p>
+          <p class="assortment__card-company">SS-01 116Q Maxxis</p>
+        </div>
+      </div>
+      <!-- Легковые -->
+
+      <div class="assortment__card mix soft">
+        <img src="./images/tires/import/Winter Drive 85T Cordiant.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 195/55R15</p>
+          <p class="assortment__card-company">Winter Drive 85T Cordiant</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix soft">
+        <img src="./images/tires/import/NordWay 2 94Q Tunga.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 205/65R15</p>
+          <p class="assortment__card-company">NordWay 2 94Q Tunga</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix soft">
+        <img src="./images/tires/import/Snow Cross 99T Cordiant.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <img src="./images/шипы-removebg.png" class="assortment__ships">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 205/65R15</p>
+          <p class="assortment__card-company">Snow Cross 99T Cordiant</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix soft">
+        <img src="./images/tires/import/Winter Drive 85T Cordiant.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 205/65R15</p>
+          <p class="assortment__card-company">Winter Drive 94T Cordiant</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix soft">
+        <img src="./images/tires/import/Winter Drive 85T Cordiant.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 215/70R16</p>
+          <p class="assortment__card-company">Winter Drive 100T Cordiant</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix soft">
+        <img src="./images/tires/import/Snow Cross 99T Cordiant.png" class="assortment__image">
+        <img src="./images/зима2.png" class="assortment__summer">
+        <img src="./images/шипы-removebg.png" class="assortment__ships">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 235/65R17</p>
+          <p class="assortment__card-company">Snow Cross 108T Cordiant</p>
+        </div>
+      </div>
+      <!-- Легковые -->
+
+
+      <!-- Грузовые -->
+      <div class="assortment__card mix hard">
+        <img src="./images/tires/gruzovie/ОИ_73Б_нс16_146_143K.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 10,00R20</p>
+          <p class="assortment__card-company">ОИ-73Б нс16 146/143K</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix hard">
+        <img src="./images/tires/gruzovie/VM-310 и 150 TyRex CRG.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 11,00R20</p>
+          <p class="assortment__card-company">VM-310 и 150 TyRex CRG</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix hard">
+        <img src="./images/tires/gruzovie/S811 нс22 158_155J Sailun.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 12,00R20</p>
+          <p class="assortment__card-company">S811 нс22 158/155J Sailun</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix hard">
+        <img src="./images/tires/gruzovie/S929 нс20 156_153F Sailun.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 12,00R20</p>
+          <p class="assortment__card-company">S929 нс20 156/153F Sailun</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix hard">
+        <img src="./images/tires/gruzovie/FR-1 126_124M Cordiant Professional.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 215/75R17,5</p>
+          <p class="assortment__card-company">FR-1 126/124M Cordiant Professional</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix hard">
+        <img src="./images/tires/gruzovie/TR-1 135_133J Cordiant Professional.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 215/75R17,5</p>
+          <p class="assortment__card-company">TR-1 135/133J Cordiant Professional</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix hard">
+        <img src="./images/tires/gruzovie/TR-1 135_133J Cordiant Professional.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 235/75R17,5</p>
+          <p class="assortment__card-company">TR-1 143/141J Cordiant Professional</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix hard">
+        <img src="./images/tires/gruzovie/TR-1 135_133J Cordiant Professional.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 265/70R19,5</p>
+          <p class="assortment__card-company">TR-1 143/141J Cordiant Professional</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix hard">
+        <img src="./images/tires/gruzovie/DR-1 152_148M Cordiant Professional.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 295/80R22,5</p>
+          <p class="assortment__card-company">DR-1 152/148M Cordiant Professional</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix hard">
+        <img src="./images/tires/gruzovie/FR-1 126_124M Cordiant Professional.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 295/80R22,5</p>
+          <p class="assortment__card-company">FR-1 152/148M Cordiant Professional</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix hard">
+        <img src="./images/tires/gruzovie/FL-1 152_148L Cordiant Professional.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 315/60R22,5</p>
+          <p class="assortment__card-company">FL-1 152/148L Cordiant Professional</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix hard">
+        <img src="./images/tires/gruzovie/D HR4 150_147L Matador.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 315/70R22,5</p>
+          <p class="assortment__card-company">D HR4 154/150L Matador</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix hard">
+        <img src="./images/tires/gruzovie/VM-1 156_150K Cordiant Professional.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 315/80R22,5</p>
+          <p class="assortment__card-company">VM-1 156/150K Cordiant Professional</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix hard">
+        <img src="./images/tires/gruzovie/FR-1 126_124M Cordiant Professional.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 385/65R22,5</p>
+          <p class="assortment__card-company">FR-1 158L Cordiant Professional</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix hard">
+        <img src="./images/tires/gruzovie/У-2 нс14.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 8,25R20</p>
+          <p class="assortment__card-company">У-2 нс14</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix hard">
+        <img src="./images/tires/gruzovie/И-Н142Б-1 нс14 141_138.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 9,00R20</p>
+          <p class="assortment__card-company">И-Н142Б-1 нс14 141/138</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix hard">
+        <img src="./images/tires/gruzovie/О-40БМ-1 нс12 136_133J.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 9,00R20</p>
+          <p class="assortment__card-company">О-40БМ-1 нс12 136/133J</p>
+        </div>
+      </div>
+      <!-- Грузовые -->
+
+      <!-- Сельхоз -->
+      <div class="assortment__card mix hay">
+        <img src="./images/tires/selkhoz/Ф-111 146A8.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 18,4R38</p>
+          <p class="assortment__card-company">Ф-111 146A8</p>
+        </div>
+      </div>
+
+      <div class="assortment__card mix hay">
+        <img src="./images/tires/selkhoz/Бел-90 130A8.png" class="assortment__image">
+        <div class="assortment__card-box">
+          <p class="assortment__card-size">Размер: 420/70R24</p>
+          <p class="assortment__card-company">Бел-90 130A8</p>
+        </div>
+      </div>
+      <!-- Сельхоз -->
+
+  </section>
+
+  <div class="images">
+    <div class="images__inner">
+      <a data-fancybox="gallery" href="images/big1.jpeg">
+        <img class="image__scale" src="images/big1.jpeg" alt="#" />
+      </a>
+      <a data-fancybox="gallery" href="images/big2.jpeg">
+        <img class="image__scale" src="images/big2.jpeg" alt="#" />
+      </a>
+      <a data-fancybox="gallery" href="images/big3.jpg">
+        <img class="image__scale" src="images/big3.jpg" alt="#" />
+      </a>
+      <a data-fancybox="gallery" href="images/big4.jpeg">
+        <img class="image__scale" src="images/big4.jpeg" alt="#" />
+      </a>
+      <a data-fancybox="gallery" href="images/big5.jpeg">
+        <img class="image__scale" src="images/big5.jpeg" alt="#" />
+      </a>
+      <a data-fancybox="gallery" href="images/big6.jpeg">
+        <img class="image__scale" src="images/big6.jpeg" alt="#" />
+      </a>
+      <a data-fancybox="gallery" href="images/big7.jpeg">
+        <img class="image__scale" src="images/big7.jpeg" alt="#" />
+      </a>
+      <a data-fancybox="gallery" href="images/big8.jpeg">
+        <img class="image__scale" src="images/big8.jpeg" alt="#" />
+      </a>
+    </div>
+  </div>
+
+
+  <section id="services" class="services">
+    <h3 class="services__title">Наши услуги</h3>
+    <div class="services__subtitle">
+      Наш шинный центр оснащен современным оборудованием для
+      <span>диагностики автомобилей всех марок</span>
+    </div>
+    <div class="services__items">
+      <div class="services__items-about">
+        <div class="about__name">Кузовной цех</div>
+        <button class="about__btn rotate1">+</button>
+      </div>
+      <div class="about__list list__show1">
+        <ul class="list">
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Замена
+            масла и масляного фильтра — 500 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Замена
+            масла и масляного фильтра — 500 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня тормозной жидкости — 20 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня рабочей жидкости ГУР — 20 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня электролита АКБ — 100 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            тормозных колодок и дисков — 100 руб.
+          </li>
+        </ul>
+      </div>
+      <div class="services__items-about">
+        <div class="about__name">Слесарный цех</div>
+        <button class="about__btn rotate2">+</button>
+      </div>
+      <div class="about__list list__show2">
+        <ul class="list">
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Замена
+            масла и масляного фильтра — 500 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Замена
+            масла и масляного фильтра — 500 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня тормозной жидкости — 20 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня рабочей жидкости ГУР — 20 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня электролита АКБ — 100 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            тормозных колодок и дисков — 100 руб.
+          </li>
+        </ul>
+      </div>
+      <div class="services__items-about">
+        <div class="about__name">Шиномонтажный цех</div>
+        <button class="about__btn rotate3">+</button>
+      </div>
+      <div class="about__list list__show3">
+        <ul class="list">
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Замена
+            масла и масляного фильтра — 500 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Замена
+            масла и масляного фильтра — 500 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня тормозной жидкости — 20 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня рабочей жидкости ГУР — 20 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня электролита АКБ — 100 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            тормозных колодок и дисков — 100 руб.
+          </li>
+        </ul>
+      </div>
+      <div class="services__items-about">
+        <div class="about__name">Диагностика автомобиля</div>
+        <button class="about__btn rotate4">+</button>
+      </div>
+      <div class="about__list list__show4">
+        <ul class="list">
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Замена
+            масла и масляного фильтра — 500 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Замена
+            масла и масляного фильтра — 500 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня тормозной жидкости — 20 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня рабочей жидкости ГУР — 20 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня электролита АКБ — 100 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            тормозных колодок и дисков — 100 руб.
+          </li>
+        </ul>
+      </div>
+      <div class="services__items-about">
+        <div class="about__name">Ремонт двигателя</div>
+        <button class="about__btn rotate5">+</button>
+      </div>
+      <div class="about__list list__show5">
+        <ul class="list">
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Замена
+            масла и масляного фильтра — 500 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Замена
+            масла и масляного фильтра — 500 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня тормозной жидкости — 20 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня рабочей жидкости ГУР — 20 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня электролита АКБ — 100 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            тормозных колодок и дисков — 100 руб.
+          </li>
+        </ul>
+      </div>
+      <div class="services__items-about">
+        <div class="about__name">Техническое обслуживание</div>
+        <button class="about__btn rotate6">+</button>
+      </div>
+      <div class="about__list list__show6">
+        <ul class="list">
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Замена
+            масла и масляного фильтра — 500 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Замена
+            масла и масляного фильтра — 500 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня тормозной жидкости — 20 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня рабочей жидкости ГУР — 20 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            уровня электролита АКБ — 100 руб.
+          </li>
+          <li class="list__item">
+            <img class="check" src="images/check-solid.svg" alt="#" />Проверка
+            тормозных колодок и дисков — 100 руб.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="comfort">
+    <h3 class="comfort__title">Комфортное ожидание</h3>
+    <div class="comfort__subtitle">
+      Время ремонтных работ вы можете провести в
+      <span>зале ожидания нашего сервиса</span>
+    </div>
+    <div class="comfort__item">
+      <div class="comfort__item-info">
+        <div class="info__img">
+          <img src="images/cofee.svg" alt="#" />
+        </div>
+        <div class="info__name">Чай и кофе</div>
+        <div class="info__text">
+          Чай, кофе и закуски для наших клиентов <span>бесплатно</span>
+        </div>
+      </div>
+      <div class="comfort__item-info">
+        <div class="info__img">
+          <img src="images/2.svg" alt="#" />
+        </div>
+        <div class="info__name">Wi-fi</div>
+        <div class="info__text">
+          Вы можете заниматься своими делами, пока
+          <span>ожидаете автомобиль</span>
+        </div>
+      </div>
+      <div class="comfort__item-info">
+        <div class="info__img">
+          <img src="images/3.svg" alt="#" />
+        </div>
+        <div class="info__name">Телевидение</div>
+        <div class="info__text">
+          В зале ожидание есть работающий телевизор
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="diagnostics" class="diagnostics">
+    <div class="diagnostics__inner">
+      <h3 class="diagnostics__title">Запишитесь на диагностику</h3>
+      <div class="diagnostics__subtitle">
+        Заполните поля формы, чтобы мы могли связаться с
+        <span>вами и записать на свободное время</span>
+      </div>
+      <form class="diagnostics__form" method="POST" action="include-db/db.php">
+
+        <input class="diagnostics__form-item _req" type="text" name="phone" placeholder="Ваш телефон" />
+        <input class="diagnostics__form-item _req _email" id="formEmail" name="email" type="email"
+          placeholder="Ваш имейл" />
+        <input class="diagnostics__form-item _req" type="text" name="name" placeholder="Ваше имя" />
+        <button class="diagnostics__form-btn" type="submit" name="send">
+          Онлайн запись
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <section id="reviews" class="reviews">
+    <h1 class="reviews__title">Отзывы</h1>
+
+    <div class="reviews__coments">
+
+      <div class="reviews__coment">
+        <div class="reviews__coment-box">
+          <p class="reviews__coment-text">Очень доволен заказом! Ответственное и доброжелательное отношение к клиентам!
+            Спасибо за отличную работу!</p>
+        </div>
+        <p class="reviews__author">Максим</p>
+      </div>
+
+
+      <div class="reviews__coment">
+        <div class="reviews__coment-box">
+          <p class="reviews__coment-text">Самые главные достоинства: невысокие цены, вежливые сотрудники, качественные
+            товары. Очень понравилось, огромное спасибо!</p>
+        </div>
+        <p class="reviews__author">Ербол</p>
+      </div>
+
+      <div class="reviews__coment">
+        <div class="reviews__coment-box">
+          <p class="reviews__coment-text">Огромное спасибо Вам, сервис у Вас очень качественный, меня лично все
+            устраивает, работа выполнено на отлично.</p>
+        </div>
+        <p class="reviews__author">Владимир</p>
+      </div>
+
+
+      <div class="reviews__coment">
+        <div class="reviews__coment-box">
+          <p class="reviews__coment-text">Ребята молодцы! Сработали оперативно! Резиной очень доволен! Зима покажет
+            качество зимней резины. Рекомендую всем знакомым и сотрудникам!</p>
+        </div>
+        <p class="reviews__author">Азамат</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="sales">
+    <h1 class="sales__title">Акции</h1>
+    <p class="sales__subtitle">Следите за новостями и акциями нашего шинного центра</p>
+    <div class="sales__container">
+      <img src="../while_cars/images/service-tires.jpg" class="sales__image-tires-service">
+      <div class="sales__sale-box">
+        <h2 class="sales__sale-name">Акция «Шиномонтаж в подарок»</h2>
+        <p class="sales__sale-description">При покупке шин в нашем центре, Вы получаете шиномонтаж в подарок от нас!
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
