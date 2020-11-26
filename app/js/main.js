@@ -86,7 +86,7 @@ $(function () {
     $(".list__show6").slideToggle(500);
   });
 
-  $('.assortment__button').on('click', function() {
+  $('.assortment__button').on('click', function () {
     $(this).addClass('selected');
   });
 });

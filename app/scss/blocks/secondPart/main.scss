@@ -691,6 +691,22 @@
 }
 
 @media all and (max-width: 768px) {
+  .assortment {
+    &__buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__button {
+      padding: 0 15px 8px;
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
   .images__inner {
     -ms-grid-columns: (minmax(250px, 1fr));
     grid-template-columns: repeat(2, minmax(250px, 1fr));
@@ -720,6 +736,20 @@
 
   .comfort {
     padding: 70px 0 50px 0;
+
+    &__item {
+      flex-direction: column;
+    }
+
+    &__item-info {
+      padding: 0;
+      margin: 0 0 20px 0;
+
+      &:last-child,
+      &:first-child {
+        padding: 0;
+      }
+    }
   }
 
   .comfort__title {
@@ -738,6 +768,14 @@
 
   .info__text {
     font-size: 16px;
+  }
+
+  .info__img {
+    margin-bottom: 15px;
+  }
+
+  .diagnostics__inner {
+    padding: 10px;
   }
 
   .diagnostics__title {
@@ -872,16 +910,12 @@
     font-size: 16px;
   }
 
-  .diagnostics__inner {
-    padding: 40px 10px;
-  }
-
   .diagnostics__title {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .diagnostics__subtitle {
-    font-size: 17px;
+    font-size: 14px;
     line-height: 1.2;
     margin-bottom: 50px;
   }
@@ -892,12 +926,18 @@
 
   .diagnostics__form-item {
     width: 300px;
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 40px;
   }
 
+  .diagnostics__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .diagnostics__form-btn {
-    font-size: 15px;
+    font-size: 14px;
     width: 160px;
     padding: 13px 0px;
     margin-bottom: 20px;
